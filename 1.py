@@ -7,5 +7,3 @@ if dg <= d:
     print("да")
 else:
     print("нет")
-
-
