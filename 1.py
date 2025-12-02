@@ -1,8 +1,11 @@
+import math
 r = 6.5
-a = float(input())
-b = float(input())
+a, b = map(float, input().split('x'))
 d = 2 * r
-if a <= d and b <= d:
-     print("да")
+dg = math.hypot(a, b)
+if dg <= d:
+    print("да")
 else:
     print("нет")
+
+
